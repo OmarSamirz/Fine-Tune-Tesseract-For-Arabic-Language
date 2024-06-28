@@ -1,1 +1,6 @@
-This Repositry contains our efforts of Fine Tuning Tesseract OCR model 'ara.traineddata' which contains our Notebooks we used to visualize, image generation and testing the fonts for generation usage and the research paper of our work  
+# Fine-Tuning an Arabic OCR Model using Tesseract 5
+
+## Table of Contents
+
+* 
+

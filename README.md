@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Key Areas of Focus](#Key-fareas-of-focus)
+* [Key Areas of Focus](#Key-areas-of-focus)
 * [Methodology](#methodology)
   * [Data Collection and Preprocessing](#data-collection-and-preprocessing)
   * [Dataset Composition](#dataset-composition)
@@ -27,16 +27,22 @@ Optical Character Recognition (OCR) is essential for digital processing and pres
 ## Methodology
 
 ### Data Collection and Preprocessing
-
+We built a comprehensive Arabic dataset by collecting Arabic words from various online sources, ensuring quality through preprocessing steps like removing non-Arabic characters and normalizing text.
 
 ### Dataset Composition
-Our dataset included 1 million Arabic sentences, split into:
-* 60% tashkeel-free sentences
-* 40% tashkeel-included sentences
+Our dataset included about **1 million** Arabic sentences, split into:
+
+* **60%** tashkeel-free sentences
+* **40%** tashkeel-included sentences
 
 This balance helps the OCR model handle both scenarios effectively.
 
 ### Image Generation
 Using the **Text Recognition Data Generator (TRDG)** library, we created images from Arabic text, ensuring diversity with three distinct **Arabic fonts**: `Baghdad`, `Bahij`, and `Rakkas`. Images were generated in `.tif` format with corresponding ground truth text in `.gt.txt` format.
+
+### Data Augmentation
+Future improvements will include advanced data augmentation techniques to enhance the model's robustness, such as `noise injection`, `background variation`, and `character distortions`.
+
+
 
 

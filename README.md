@@ -18,11 +18,11 @@
 Optical Character Recognition (OCR) is essential for digital processing and preservation of textual information. Despite advancements in OCR for various languages, Arabic OCR remains challenging due to its complex script. This project aims to fine-tune an Arabic OCR system using **Tesseract 5.0**, achieving high accuracy in text recognition.
 
 ## Key Areas of Focus
-* [Data Collection and Preprocessing]
-* [Dataset Composition]
-* [Image Generation]
-* [Training and Evaluation]
-* [Challenges and Limitations]
+* Data Collection and Preprocessing
+* Dataset Composition
+* Image Generation
+* Training and Evaluation
+* Challenges and Limitations
 
 ## Methodology
 
@@ -31,8 +31,8 @@ Optical Character Recognition (OCR) is essential for digital processing and pres
 
 ### Dataset Composition
 Our dataset included 1 million Arabic sentences, split into:
-* [60% tashkeel-free sentences]
-* [40% tashkeel-included sentences]
+* 60% tashkeel-free sentences
+* 40% tashkeel-included sentences
 
 This balance helps the OCR model handle both scenarios effectively.
 

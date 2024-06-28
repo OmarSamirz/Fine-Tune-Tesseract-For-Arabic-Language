@@ -9,7 +9,6 @@
   * [Dataset Composition](#dataset-composition)
   * [Image Generation](#image-generation)
 * [Data Augmentation](#data-augmentation)
-* [About Tesseract OCR](#about-tesseract-ocr)
 * [Training](#training)
 * [Evaluation](#evaluation)
 * [Results](#results)
@@ -43,6 +42,15 @@ Using the **Text Recognition Data Generator (TRDG)** library, we created images 
 ### Data Augmentation
 Future improvements will include advanced data augmentation techniques to enhance the model's robustness, such as `noise injection`, `background variation`, and `character distortions`.
 
+### Training
+We fine-tuned the pre-trained Arabic model `ara.traineddata` from the official Tesseract repository. Key parameters included:
 
+**Maximum iterations**: *1000*
+**Lang type**: *RTL*
+**PSM**: *13*
 
+### Evaluation
+We evaluated the model using the `ocreval` tool to measure its performance. The evaluation was conducted on a benchmarking dataset created by **Hegghammer**, which provided a comprehensive and rigorous assessment of our model's capabilities. We compared the results with pre-trained models and benchmarks from related research, focusing on metrics such as `character error rate` (**CER**) and `word error rate` (**WER**).
 
+### Results
+Our fine-tuned model demonstrated **significant improvements** in word error rate (WER) on datasets without noise, outperforming both the pre-trained Tesseract model and Hegghammer's Tesseract benchmarking results. However, on datasets that included noise, our model's performance was not as strong, highlighting areas for potential improvement in handling noisy data.

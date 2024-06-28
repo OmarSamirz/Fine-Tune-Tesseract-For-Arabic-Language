@@ -56,4 +56,4 @@ We evaluated the model using the `ocreval` tool to measure its performance. The 
 Our fine-tuned model demonstrated **significant improvements** in word error rate (WER) on datasets without noise, outperforming both the pre-trained Tesseract model and Hegghammer's Tesseract benchmarking results. However, on datasets that included noise, our model's performance was not as strong, highlighting areas for potential improvement in handling noisy data.
 
 ### License
-This project is licensed under the <u>MIT License</u>.
+This project is licensed under the <ins>MIT License</ins>.

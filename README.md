@@ -3,6 +3,7 @@
 ## Table of Contents
 
 * [Introduction](#introduction)
+* [Paper](#paper)
 * [Key Areas of Focus](#Key-areas-of-focus)
 * [Methodology](#methodology)
   * [Data Collection and Preprocessing](#data-collection-and-preprocessing)
@@ -15,6 +16,9 @@
 
 ## Introduction
 Optical Character Recognition (OCR) is essential for digital processing and preservation of textual information. Despite advancements in OCR for various languages, Arabic OCR remains challenging due to its complex script. This project aims to fine-tune an Arabic OCR system using **Tesseract 5.0**, achieving high accuracy in text recognition.
+
+## Paper
+You can find the paper here: [Paper](https://ieeexplore.ieee.org/document/10928060)
 
 ## Key Areas of Focus
 * Data Collection and Preprocessing
